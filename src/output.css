@@ -1,4 +1,5 @@
 /*! tailwindcss v4.2.4 | MIT License | https://tailwindcss.com */
+@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -6,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -158,4 +160,225 @@
     display: none !important;
   }
 }
-@layer utilities;
+@layer utilities {
+  .m-auto {
+    margin: auto;
+  }
+  .block {
+    display: block;
+  }
+  .flex {
+    display: flex;
+  }
+  .hidden {
+    display: none;
+  }
+  .table {
+    display: table;
+  }
+  .max-w-3 {
+    max-width: calc(var(--spacing) * 3);
+  }
+  .max-w-30 {
+    max-width: calc(var(--spacing) * 30);
+  }
+  .max-w-300 {
+    max-width: calc(var(--spacing) * 300);
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
+  }
+  .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .gap-\[1\] {
+    gap: 1;
+  }
+  .gap-\[9\] {
+    gap: 9;
+  }
+  .gap-\[15\] {
+    gap: 15;
+  }
+  .gap-\[15p\] {
+    gap: 15p;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
+  }
+  .gap-\[25px\] {
+    gap: 25px;
+  }
+  .gap-\[90\] {
+    gap: 90;
+  }
+  .gap-\[90p\] {
+    gap: 90p;
+  }
+  .gap-\[90px\] {
+    gap: 90px;
+  }
+  .gap-\[190px\] {
+    gap: 190px;
+  }
+  .rounded-\[2px\] {
+    border-radius: 2px;
+  }
+  .rounded-\[3px\] {
+    border-radius: 3px;
+  }
+  .rounded-\[20px\] {
+    border-radius: 20px;
+  }
+  .rounded-\[23px\] {
+    border-radius: 23px;
+  }
+  .rounded-\[30px\] {
+    border-radius: 30px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .bg-\[\#24AB70\] {
+    background-color: #24AB70;
+  }
+  .p-\[1\] {
+    padding: 1;
+  }
+  .p-\[1px_15px\] {
+    padding: 1px 15px;
+  }
+  .p-\[5px_1px\] {
+    padding: 5px 1px;
+  }
+  .p-\[5px_10px\] {
+    padding: 5px 10px;
+  }
+  .p-\[5px_15px\] {
+    padding: 5px 15px;
+  }
+  .p-\[10\] {
+    padding: 10;
+  }
+  .p-\[10p\] {
+    padding: 10p;
+  }
+  .p-\[10px\] {
+    padding: 10px;
+  }
+  .p-\[10px_15px\] {
+    padding: 10px 15px;
+  }
+  .p-\[15\] {
+    padding: 15;
+  }
+  .p-\[15p\] {
+    padding: 15p;
+  }
+  .p-\[15px\] {
+    padding: 15px;
+  }
+  .p-\[px_15px\] {
+    padding: px 15px;
+  }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
+  .text-\[2\] {
+    color: 2;
+  }
+  .text-\[25\] {
+    color: 25;
+  }
+  .text-\[25p\] {
+    color: 25p;
+  }
+  .text-\[w\] {
+    color: w;
+  }
+  .text-\[wh\] {
+    color: wh;
+  }
+  .text-\[whi\] {
+    color: whi;
+  }
+  .text-\[white\] {
+    color: white;
+  }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
+  .lg\:flex-row {
+    @media (width >= 64rem) {
+      flex-direction: row;
+    }
+  }
+  .lg\:items-center {
+    @media (width >= 64rem) {
+      align-items: center;
+    }
+  }
+  .lg\:justify-between {
+    @media (width >= 64rem) {
+      justify-content: space-between;
+    }
+  }
+  .lg\:gap-\[25px\] {
+    @media (width >= 64rem) {
+      gap: 25px;
+    }
+  }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-outline-style: solid;
+    }
+  }
+}
