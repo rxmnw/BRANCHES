@@ -199,6 +199,12 @@
   .mt-\[10\] {
     margin-top: 10;
   }
+  .mt-\[10px\] {
+    margin-top: 10px;
+  }
+  .mt-\[12\] {
+    margin-top: 12;
+  }
   .mt-\[20\] {
     margin-top: 20;
   }
@@ -223,8 +229,32 @@
   .mt-\[100px\] {
     margin-top: 100px;
   }
+  .mt-\[120\] {
+    margin-top: 120;
+  }
+  .mt-\[120p\] {
+    margin-top: 120p;
+  }
+  .mt-\[120px\] {
+    margin-top: 120px;
+  }
   .mt-\[150px\] {
     margin-top: 150px;
+  }
+  .mr-\[5\] {
+    margin-right: 5;
+  }
+  .mr-\[50\] {
+    margin-right: 50;
+  }
+  .mr-\[50p\] {
+    margin-right: 50p;
+  }
+  .mr-\[50px\] {
+    margin-right: 50px;
+  }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
   }
   .block {
     display: block;
@@ -457,6 +487,9 @@
   .w-\[370px\] {
     width: 370px;
   }
+  .w-\[380px\] {
+    width: 380px;
+  }
   .w-\[400\] {
     width: 400;
   }
@@ -484,6 +517,9 @@
   .w-\[570px\] {
     width: 570px;
   }
+  .w-\[580px\] {
+    width: 580px;
+  }
   .w-\[600\] {
     width: 600;
   }
@@ -508,6 +544,12 @@
   .w-\[700px\] {
     width: 700px;
   }
+  .w-\[905\%\] {
+    width: 905%;
+  }
+  .w-\[905\] {
+    width: 905;
+  }
   .w-\[910\%\] {
     width: 910%;
   }
@@ -519,6 +561,15 @@
   }
   .w-\[1400px\] {
     width: 1400px;
+  }
+  .w-\[4000\] {
+    width: 4000;
+  }
+  .w-\[4000px\] {
+    width: 4000px;
+  }
+  .w-\[4080px\] {
+    width: 4080px;
   }
   .w-\[px\] {
     width: px;
@@ -664,6 +715,9 @@
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
+  .rounded-\[1\] {
+    border-radius: 1;
+  }
   .rounded-\[2\] {
     border-radius: 2;
   }
@@ -672,6 +726,12 @@
   }
   .rounded-\[3px\] {
     border-radius: 3px;
+  }
+  .rounded-\[10\] {
+    border-radius: 10;
+  }
+  .rounded-\[10px\] {
+    border-radius: 10px;
   }
   .rounded-\[20\] {
     border-radius: 20;
@@ -701,6 +761,20 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[2\] {
+    border-style: var(--tw-border-style);
+    border-width: 2;
+  }
+  .border-\[2px\] {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-\[2p\] {
+    border-color: 2p;
+  }
+  .border-\[grey\] {
+    border-color: grey;
+  }
   .bg-\[\#24AB70\] {
     background-color: #24AB70;
   }
@@ -725,8 +799,14 @@
   .p-\[1\] {
     padding: 1;
   }
+  .p-\[1px\] {
+    padding: 1px;
+  }
   .p-\[1px_15px\] {
     padding: 1px 15px;
+  }
+  .p-\[5px\] {
+    padding: 5px;
   }
   .p-\[5px_1px\] {
     padding: 5px 1px;
@@ -803,8 +883,20 @@
   .p-\[30px\] {
     padding: 30px;
   }
+  .p-\[px\] {
+    padding: px;
+  }
   .p-\[px_15px\] {
     padding: px 15px;
+  }
+  .pb-\[0px\] {
+    padding-bottom: 0px;
+  }
+  .pb-\[20px\] {
+    padding-bottom: 20px;
+  }
+  .pb-\[50px\] {
+    padding-bottom: 50px;
   }
   .pl-\[1\] {
     padding-left: 1;
@@ -838,6 +930,9 @@
   }
   .text-center {
     text-align: center;
+  }
+  .text-start {
+    text-align: start;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -882,6 +977,12 @@
   .text-\[32px\] {
     font-size: 32px;
   }
+  .text-\[35px\] {
+    font-size: 35px;
+  }
+  .text-\[39px\] {
+    font-size: 39px;
+  }
   .text-\[40px\] {
     font-size: 40px;
   }
@@ -901,6 +1002,9 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .text-\[\#1D263AE5\] {
+    color: #1D263AE5;
   }
   .text-\[\#24AB70\] {
     color: #24AB70;
@@ -983,6 +1087,9 @@
   .text-\[26p\] {
     color: 26p;
   }
+  .text-\[40\] {
+    color: 40;
+  }
   .text-\[45\] {
     color: 45;
   }
@@ -1027,6 +1134,10 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .outline {
     outline-style: var(--tw-outline-style);
@@ -1132,6 +1243,11 @@
       width: 300px;
     }
   }
+  .lg\:w-\[400px\] {
+    @media (width >= 64rem) {
+      width: 400px;
+    }
+  }
   .lg\:w-\[480px\] {
     @media (width >= 64rem) {
       width: 480px;
@@ -1145,6 +1261,11 @@
   .lg\:w-\[570px\] {
     @media (width >= 64rem) {
       width: 570px;
+    }
+  }
+  .lg\:w-\[580px\] {
+    @media (width >= 64rem) {
+      width: 580px;
     }
   }
   .lg\:w-\[600px\] {
@@ -1187,6 +1308,11 @@
       align-items: center;
     }
   }
+  .lg\:items-start {
+    @media (width >= 64rem) {
+      align-items: flex-start;
+    }
+  }
   .lg\:justify-around {
     @media (width >= 64rem) {
       justify-content: space-around;
@@ -1200,6 +1326,11 @@
   .lg\:justify-center {
     @media (width >= 64rem) {
       justify-content: center;
+    }
+  }
+  .lg\:justify-start {
+    @media (width >= 64rem) {
+      justify-content: flex-start;
     }
   }
   .lg\:gap-\[5\] {
@@ -1318,6 +1449,71 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
@@ -1337,6 +1533,20 @@
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
       --tw-outline-style: solid;
       --tw-text-shadow-color: initial;
       --tw-text-shadow-alpha: 100%;
